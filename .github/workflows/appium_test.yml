@@ -33,7 +33,7 @@ jobs:
             appcenter test run appium \
               --app "1999rahul.py-gmail.com/Test-App-2" \
               --devices "1999rahul.py-gmail.com/test" \
-              --app-path pathToFile.apk \
+              --app-path ${{ github.workspace }}/app-release.apk \
               --test-series "master" \
               --locale "en_US" \
               --build-dir target/upload
