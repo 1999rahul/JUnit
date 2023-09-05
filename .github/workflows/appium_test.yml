@@ -36,4 +36,5 @@ jobs:
               --app-path ${{ github.workspace }}/app-release.apk \
               --test-series "master" \
               --locale "en_US" \
-              --build-dir target/upload
+              --build-dir target/upload \
+              --test-parameter jdk=zulu-17
