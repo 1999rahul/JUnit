@@ -23,7 +23,7 @@ jobs:
         run: npm install -g appcenter-cli
 
       - name: Authenticate with App Center
-        run: appcenter login --token "75bd51ba8d41c86296849b4308745ad4f28917ef"
+        run: appcenter login --token "4f87c6007841d1d490d28d75d4455f7df688f831"
 
       - name: Build and Test with Maven
         run: mvn -DskipTests -P prepare-for-upload package
